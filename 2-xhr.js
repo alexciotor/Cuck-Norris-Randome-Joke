@@ -23,14 +23,12 @@ const {value:joke} = JSON.parse(xhr.responseText)
  setTimeout(()=>{
  img.classList.remove('shake-img')
  },random)
-
 }
 else{
 console.log({
     state: xhr.status,
     text: xhr.statusText
 })
-
-}
-}
-}
+   }
+   }
+    }
